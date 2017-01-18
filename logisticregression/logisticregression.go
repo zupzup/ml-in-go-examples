@@ -68,7 +68,7 @@ func Run() error {
 	fmt.Printf("Maximum accuracy: %.2f\n\n", maxAccuracy)
 	fmt.Printf("with Model: %s\n\n", maxAccuracyModel)
 	fmt.Printf("with Confusion Matrix:\n%s\n\n", maxAccuracyCM)
-	fmt.Printf("with Decisiion Boundary: %.2f\n", maxAccuracyDb)
+	fmt.Printf("with Decision Boundary: %.2f\n", maxAccuracyDb)
 	fmt.Printf("with Num Iterations: %d\n", maxAccuracyIter)
 
 	if err := plotData(xTrain, yTrain); err != nil {
